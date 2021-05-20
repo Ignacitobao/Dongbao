@@ -30,4 +30,8 @@ public class UserMemberController {
         userManageSystemRegisterService.register();
         return "register";
     }
+
+    public String test(){
+        return "test";
+    }
 }
